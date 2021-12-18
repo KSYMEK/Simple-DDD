@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Domain", "src\PackIT.Domain\PackIT.Domain.csproj", "{28CCEDF3-E998-4577-A3EC-D2EB165B8539}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DE88DBC0-0FE9-4673-A942-9A2D97FCD7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Application", "src\PackIT.Application\PackIT.Application.csproj", "{7B8F0092-4AB3-4581-89D7-F068405A427C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Api", "src\PackIT.Api\PackIT.Api.csproj", "{770E8AA7-469A-40CE-A57A-ED7ADCC8D991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Infrastructure", "src\PackIT.Infrastructure\PackIT.Infrastructure.csproj", "{1DB8B756-6F23-4847-B576-9B1163B91B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Shared", "src\Shared\PackIT.Shared\PackIT.Shared.csproj", "{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.Shared.Abstractions", "src\Shared\PackIT.Shared.Abstractions\PackIT.Shared.Abstractions.csproj", "{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackIT.UnitTests", "tests\PackIT.UnitTests\PackIT.UnitTests.csproj", "{270A5356-F802-41FA-98A2-CB9A3113F3BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6AA0F6B1-8F2E-4B68-9FB4-5E901F134545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28CCEDF3-E998-4577-A3EC-D2EB165B8539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CCEDF3-E998-4577-A3EC-D2EB165B8539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CCEDF3-E998-4577-A3EC-D2EB165B8539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CCEDF3-E998-4577-A3EC-D2EB165B8539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8F0092-4AB3-4581-89D7-F068405A427C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F0092-4AB3-4581-89D7-F068405A427C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F0092-4AB3-4581-89D7-F068405A427C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F0092-4AB3-4581-89D7-F068405A427C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770E8AA7-469A-40CE-A57A-ED7ADCC8D991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770E8AA7-469A-40CE-A57A-ED7ADCC8D991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770E8AA7-469A-40CE-A57A-ED7ADCC8D991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770E8AA7-469A-40CE-A57A-ED7ADCC8D991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB8B756-6F23-4847-B576-9B1163B91B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB8B756-6F23-4847-B576-9B1163B91B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB8B756-6F23-4847-B576-9B1163B91B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB8B756-6F23-4847-B576-9B1163B91B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270A5356-F802-41FA-98A2-CB9A3113F3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270A5356-F802-41FA-98A2-CB9A3113F3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270A5356-F802-41FA-98A2-CB9A3113F3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270A5356-F802-41FA-98A2-CB9A3113F3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3072FB1-FCD4-4E37-B4E8-9B5F11EACA15} = {DE88DBC0-0FE9-4673-A942-9A2D97FCD7F1}
+		{6C16D4EB-0EE1-490F-82DD-A5E6752EAB71} = {DE88DBC0-0FE9-4673-A942-9A2D97FCD7F1}
+		{270A5356-F802-41FA-98A2-CB9A3113F3BC} = {6AA0F6B1-8F2E-4B68-9FB4-5E901F134545}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿namespace PackIT.Application.DTO;
+
+public class PackingListDto
+{
+    public Guid Id { get; set; }
+    public string Name { get; set; }
+    public LocatlizationDto Localization { get; set; }
+    public IEnumerable<PackingItemDto> Items { get; set; }
+}
